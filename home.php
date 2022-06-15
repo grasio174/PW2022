@@ -76,6 +76,9 @@
 <?php
 include 'Data.php';
 ?>
+<?php
+include 'footer.php';
+?>
 
 
 
