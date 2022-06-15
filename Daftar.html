@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Daftar</title>
+</head>
+<body>
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"> <span>Secon </span>M </a>
+    
+        <nav class="navbar">
+            <div id = "check"></div>
+            <a href="index.html#beranda">beranda</a>
+            <a href="index.html#kontak">kontak</a>
+        </nav>
+    
+        <div id="login-btn">
+            <div id = "log_info"></div>
+            <i class="far fa-user"></i>
+        </div>
+    
+    </header> 
+        
+    <div class="login-form-container">
+    
+        <span id="close-login-form" class="fas fa-times"></span>
+    
+    <form method="POST" action="Login.php">
+        <div id = "log"></div>
+    </form>
+    
+    </div>
+
+    <section class="beranda" id="beranda">
+    </section>
+    
+    <section class="kendaraan" id="kendaraan">
+        <h1 class="heading" > Daftar <span> akun</span> </h1>
+        <form method="POST" action="Daftar.php">
+            <div class="batasdaftar">
+                <label for="get_nama" class="heading1">Nama : </label>  <input type="text" placeholder="Nama" name = "Nama" class="box">
+                <br>
+                <label for="get_username" class="heading1">Username : </label>  <input type="text" placeholder="Username" name = "Username" class="box">
+                <br>
+                <label for="get_email" class="heading1">Email : </label>  <input type="Email" placeholder="Email" name = "Email" class="box">
+                <br>
+                <label for="get_password" class="heading1">Password : </label>  <input type="Password" placeholder="Password" name = "Password" class="box">
+                <br>
+                <label for="get_noh" class="heading1">No Handphone : </label>  <input type="number" placeholder="No Handphone" name = "NoH" class="box">
+                <br>
+                <input type="submit" value="Daftar" class="btn">
+                <br>
+            </div>
+             </form>
+    </section>
+        <section class="unggulan" id="unggulan">
+        
+        
+        </section>
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+
