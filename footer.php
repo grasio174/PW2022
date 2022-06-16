@@ -22,6 +22,7 @@
          <a href="https://twitter.com/Grasio21"> <i class="fab fa-twitter"></i> twitter </a>
          <a href="https://www.instagram.com/rizandi21"> <i class="fab fa-instagram"></i> instagram </a>
       </div>
+   <p class="credit"> TIK2032F - Pemrograman Web; copyright @ <?= date('Y'); ?> by <span>Grasio Carel</span> | 20021106119 </p>
 
    </section>
 </footer>
